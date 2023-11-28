@@ -10,15 +10,15 @@ public class Main {
 		// Those paths below need to change to your specific paths to make sure the code runs right
 		
 		// This is the carrier path, we will create a copy of this but that copy will contain the message
-		String iCarrierPath = "C:\\Users\\thanh\\Library\\Workspace\\AudioSteganography\\audio_steganography\\input.wav";
+		String iCarrierPath = "C:\\Users\\thanh\\Library\\Workspace\\LSB_Steganography\\input.wav";
 		// This is the copy of the carrier path, which contains the message
-		String oCarrierPath = "C:\\Users\\thanh\\Library\\Workspace\\AudioSteganography\\audio_steganography\\output.wav";
+		String oCarrierPath = "C:\\Users\\thanh\\Library\\Workspace\\LSB_Steganography\\output.wav";
 		
 		// This is the message path that we will embed to the copy of the carrier
-		//String messagePath = "C:\\Users\\thanh\\Library\\Workspace\\AudioSteganography\\audio_steganography\\message_image1.jpg";
-		//String messagePath = "C:\\Users\\thanh\\Library\\Workspace\\AudioSteganography\\audio_steganography\\message_image2.jpg";
-		//String messagePath = "C:\\Users\\thanh\\Library\\Workspace\\AudioSteganography\\audio_steganography\\message_text.txt";
-		String messagePath = "C:\\Users\\thanh\\Library\\Workspace\\AudioSteganography\\audio_steganography\\message_video.mp4";
+		//String messagePath = "C:\\Users\\thanh\\Library\\Workspace\\LSB_Steganography\\message_image1.jpg";
+		//String messagePath = "C:\\Users\\thanh\\Library\\Workspace\\LSB_Steganography\\message_image2.jpg";
+		//String messagePath = "C:\\Users\\thanh\\Library\\Workspace\\LSB_Steganography\\message_text.txt";
+		String messagePath = "C:\\Users\\thanh\\Library\\Workspace\\LSB_Steganography\\message_video.mp4";
 		
 		try (Scanner sc = new Scanner(System.in)) {
 			

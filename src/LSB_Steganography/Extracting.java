@@ -11,7 +11,7 @@ public class Extracting {
 		
 		Metadata f = new Metadata();
 		
-        File mcarrierFile = new File("C:\\Users\\thanh\\Library\\Workspace\\AudioSteganography\\audio_steganography\\output.wav");
+        File mcarrierFile = new File("C:\\Users\\thanh\\Library\\Workspace\\LSB_Steganography\\output.wav");
         File messageFile = new File(f.getPath());
         
         FileInputStream carrier = new FileInputStream(mcarrierFile);
